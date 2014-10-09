@@ -1,0 +1,27 @@
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\obj\x86\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Main.exe.config
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Main.exe
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Main.pdb
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\DotNetOpenAuth.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\EntityFramework.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Google.Apis.Authentication.OAuth2.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Google.Apis.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Google.Apis.Mirror.v1.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Google.Apis.Oauth2.v2.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\MirrorAPI.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Utils.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\log4net.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\MirrorAPI.pdb
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\EntityFramework.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Google.Apis.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Google.Apis.Authentication.OAuth2.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Utils.pdb
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\bin\Debug\Newtonsoft.Json.Net35.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\obj\x86\Debug\Main.exe
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Main\obj\x86\Debug\Main.pdb
+C:\Users\Guido\Desktop\MirrorApiPoc\Main\bin\Debug\Main.exe.config
+C:\Users\Guido\Desktop\MirrorApiPoc\Main\obj\x86\Debug\Main.exe
+C:\Users\Guido\Desktop\MirrorApiPoc\Main\obj\x86\Debug\Main.pdb
