@@ -1,8 +1,8 @@
-Mirror Api Poc
+#MIRROR API POC
 ==============
 
 
-- Autenticacion
+## Autenticacion
   - La autenticacion es por medio de OAuth 2.0
   - Cuando el usuario accede a la aplicacion por primera vez, se le piden permisos para poder acceder a su cuenta de Google Glass 
     - Estos permisos pueden ser 
@@ -12,9 +12,20 @@ Mirror Api Poc
   - Luego, la aplicacion utilizando el **authorization code**, obtiene un **access token** para poder realizar diversas operaciones durante un tiempo limitado
     - Dado que nosotros necesitaremos acceso de forma "offline", la primera vez que se realiza este intercambio se obtiene un **refresh token**, el cual sera usado para obtener un nuevo 'access token' sin tener que utilizar un **authorization code**
 
-- Posible Workflow
+## Posible Workflow
   - El usuario accede a nuestra aplicacion y se crea una cuenta.
     - Como parte de la creacion de la cuenta nos suministra su email o nos da permisos para acceder al mismo mediante la API de Google
     - Ademas se le pediran permisos para acceder a su timeline de forma offline
   - Se almacena esta informacion, **access token** y **refresh token**, y se indexan contra el email u otro id que permita identificar al usuario.
   - Cada vez que se necesite insertar una static card, enviar un attachment, etc al usuario se consulta por email su **access token** y, en caso de haber expirado, se solicita otra utilizando el **refresh token**.
+
+- Authorization code
+  - Para poder obtener el authorization code es necesario pegarle al siguiente endpoint con los siguientes query strings 
+    - Endpoint: https://accounts.google.com/o/oauth2/auth
+    - Parametros
+      - response_type=code
+      - client_id= clientId
+      - redirect_uri=http://example.com/oauth2callback
+      - scope=https://www.googleapis.com/auth/glass.timeline+https://www.googleapis.com/auth/userinfo.profile
+      - access_type=offline (se obtiene un nuevo refresh token)
+      - approval_prompt=force
