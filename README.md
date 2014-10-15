@@ -1,5 +1,4 @@
 #MIRROR API POC
-==============
 
 
 ## Autenticacion
@@ -29,3 +28,5 @@
       - scope=https://www.googleapis.com/auth/glass.timeline+https://www.googleapis.com/auth/userinfo.profile
       - access_type=offline (se obtiene un nuevo refresh token)
       - approval_prompt=force
+
+##Location
