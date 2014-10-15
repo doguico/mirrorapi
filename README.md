@@ -19,7 +19,7 @@
   - Se almacena esta informacion, **access token** y **refresh token**, y se indexan contra el email u otro id que permita identificar al usuario.
   - Cada vez que se necesite insertar una static card, enviar un attachment, etc al usuario se consulta por email su **access token** y, en caso de haber expirado, se solicita otra utilizando el **refresh token**.
 
-- Authorization code
+### Authorization code
   - Para poder obtener el authorization code es necesario pegarle al siguiente endpoint con los siguientes query strings 
     - Endpoint: https://accounts.google.com/o/oauth2/auth
     - Parametros
