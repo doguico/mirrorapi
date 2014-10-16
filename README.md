@@ -36,7 +36,7 @@
       - callbackUrl: La URL en la cual las notificaciones seran enviadas. **Debe comenzar con https!**
       - collection: La colección a subscribirse 
         - timeline	
-	- location
+        - location
     - Opcionales
       - operation[]
       - userToken
