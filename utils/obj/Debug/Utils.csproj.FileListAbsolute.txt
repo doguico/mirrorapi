@@ -16,3 +16,17 @@ C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Utils\bin\Debu
 C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Utils\bin\Debug\Newtonsoft.Json.Net35.xml
 C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Utils\obj\Debug\Utils.dll
 C:\Users\Guido\Documents\Visual Studio 2010\Projects\MirrorApiPoc\Utils\obj\Debug\Utils.pdb
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\Utils.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\Utils.pdb
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\EntityFramework.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\log4net.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\EntityFramework.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\Google.Apis.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\Google.Apis.Authentication.OAuth2.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\bin\Debug\Newtonsoft.Json.Net35.xml
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\obj\Debug\Utils.dll
+C:\Users\Guido\Documents\Visual Studio 2010\Projects\mirrorapi\Utils\obj\Debug\Utils.pdb
