@@ -8,7 +8,7 @@ namespace MirrorAPI
 {
     public class StaticCard
     {
-        /*Inician metodos al pedo*/
+        #region metodosAlPedo
         public static void AddHtml(TimelineItem pItem, string pHtml)
         {
             pItem.Html = pHtml;
@@ -23,7 +23,7 @@ namespace MirrorAPI
         {
             pItem.IsBundleCover = true;
         }
-        /*Finalizan metodos al pedo*/
+        #endregion
 
         public static void AddNotificationLevel(TimelineItem pItem, string notificationLevel)
         {

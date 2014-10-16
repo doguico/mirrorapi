@@ -29,4 +29,25 @@
       - access_type=offline (se obtiene un nuevo refresh token)
       - approval_prompt=force
 
+##Subscriptions
+	- El scope debe ser https://www.googleapis.com/auth/glass.timeline
+	- Parametros para la subscripcion
+		- Requeridos
+			- callbackUrl: La URL en la cual las notificaciones seran enviadas. **Debe comenzar con https!**
+			- collection: La colección a subscribirse 
+				- timeline	
+				- location
+		- Opcionales
+			- operation[]
+			- userToken
+			- verifyToken
+
 ##Location
+	- Para poder usar la API de Locations en necesario **subscribirse a las notificaciones**
+	- El flujo es el siguiente	
+		- El Glassware recibe una actualizacion de la location
+		- Se le envia un request al endpoint "glass.locations.get" para obtener la ultima ubicacion conocida.
+		- **Notas** 
+			1. El Glassware recibe actualizaciones de la location cada **10 minutos**
+			2. Para poder pedir la location en el paso de autenticacion se tuvo que haber pedido por el siguiente scope: 
+				- https://www.googleapis.com/auth/glass.location

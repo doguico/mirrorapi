@@ -18,23 +18,7 @@ namespace Main
             Console.WriteLine("Ingrese mail");
             string email = Console.ReadLine();
 
-            //Stream videoStream = new MemoryStream();
-            //using (Stream video = File.OpenRead("C:\\Users\\Guido\\Desktop\\Vídeo14.wmv"))
-            //{
-            //    byte[] buffer = new byte[4096];
-
-            //    while (true)
-            //    {
-            //        int bytesRead = video.Read(buffer, 0, buffer.Length);
-
-            //        if (bytesRead == 0) break;
-            //        videoStream.Write(buffer, 0, bytesRead);
-            //    }
-            //    videoStream.Position = 0;
-            //}
-            
-            //Service.GetInstance().SendAttachment(authToken, email, "video/wmv", videoStream);           
-            Service.GetInstance().SendPinCard(email);
+            Service.GetInstance().SendCardWithActions(authToken, email);
         }
     }
 }

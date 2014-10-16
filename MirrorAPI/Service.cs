@@ -141,5 +141,14 @@ namespace MirrorAPI
             item = service.Timeline.Insert(item).Fetch();
         }
 
+        public void SendCardWithActions(string pAuthorizationCode, string pEmail) 
+        {
+            IAuthenticator authenticator = Login(pAuthorizationCode, pEmail, String.Empty);
+            MirrorService service = BuildService(authenticator);
+            TimelineItem item = new TimelineItem();
+            StaticCard.AddText(item, "Infocorp");
+            StaticCard.AddBuiltInActions(item, new string[] { "DELETE" });
+            item = service.Timeline.Insert(item).Fetch();
+        }
     }
 }
